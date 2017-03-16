@@ -17,7 +17,10 @@
         android:layout_width="match_parent"
         android:layout_height="240dp"
         card_view:cardBackgroundColor="#E2E2E2"
-        card_view:cardCornerRadius="4dp">
+        card_view:cardCornerRadius="4dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground">
 
         <ImageView
             android:layout_width="match_parent"
@@ -32,7 +35,7 @@
             android:layout_gravity="bottom"
             android:text="Hi"
             android:layout_marginBottom="10dp"
-            android:layout_marginRight="5dp">
+            android:layout_marginLeft="5dp">
         </TextView>
 
 
